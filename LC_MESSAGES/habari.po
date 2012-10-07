@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: habari\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2012-09-23 00:00+0000\n"
+"POT-Creation-Date: 2012-09-30 00:00+0000\n"
 "PO-Revision-Date: 2012-06-14 12:33+0000\n"
 "Last-Translator: huching <huch_2009@126.com>\n"
 "Language-Team: 汉语 <>\n"
@@ -13,8 +13,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-09-24 04:37+0000\n"
-"X-Generator: Launchpad (build 15985)\n"
+"X-Launchpad-Export-Date: 2012-10-01 04:37+0000\n"
+"X-Generator: Launchpad (build 16049)\n"
 
 #: admin/block_areas.php:3
 msgid "Default"
@@ -117,7 +117,7 @@ msgstr "为已删除的文章加上 CSS 样式:"
 #: plugins/undelete/undelete.plugin.php:181
 #: plugins/flickrsilo/flickrsilo.plugin.php:876 themes/charcoal/theme.php:66
 #: admin/themes.php:89 handlers/adminthemeshandler.php:154
-#: classes/post.php:1017
+#: classes/post.php:1019
 msgid "Save"
 msgstr "保存"
 
@@ -235,7 +235,7 @@ msgstr "请为新目录命名？"
 #: plugins/habarisilo/habarisilo.plugin.php:467
 #: plugins/coredashmodules/coredashmodules.plugin.php:88
 #: themes/mzingi/theme.php:114 themes/charcoal/theme.php:233
-#: classes/post.php:1282
+#: classes/post.php:1284
 msgid "Submit"
 msgstr "提交"
 
@@ -1026,7 +1026,7 @@ msgid "Feed for this Entry"
 msgstr "订阅这篇文章"
 
 #: themes/mzingi/commentform.php:28 handlers/admincommentshandler.php:49
-#: classes/post.php:1274
+#: classes/post.php:1276
 msgid "Comment"
 msgid_plural "Comments"
 msgstr[0] "评论"
@@ -1296,7 +1296,7 @@ msgstr "(不会被显示"
 msgid "- Required)"
 msgstr "必填"
 
-#: themes/charcoal/theme.php:230 classes/post.php:1261
+#: themes/charcoal/theme.php:230 classes/post.php:1263
 msgid "Website"
 msgstr "网址"
 
@@ -1358,6 +1358,26 @@ msgstr "{评论}"
 #: themes/charcoal/sidebar.php:11
 msgid "Powered by Habari"
 msgstr "基于 Habari"
+
+#: themes/wazi/posts.php:3
+msgid "&laquo;&nbsp;Newer&nbsp;Posts"
+msgstr ""
+
+#: themes/wazi/posts.php:5
+msgid "Older&nbsp;Posts&nbsp;&raquo;"
+msgstr ""
+
+#: themes/wazi/comment.php:16
+msgid "Link to this comment"
+msgstr ""
+
+#: themes/wazi/post.php:22
+msgid "There are no comments on this post."
+msgstr ""
+
+#: themes/wazi/post.php:29
+msgid "Sorry, commenting on this post is disabled."
+msgstr ""
 
 #: admin/posts_items.php:20
 #, php-format
@@ -1474,7 +1494,7 @@ msgstr "搜索标签"
 
 #: admin/tags.php:22 admin/logs.php:15 admin/logs.php:78 admin/users.php:65
 #: admin/posts.php:13 admin/posts.php:39 admin/comments.php:16
-#: admin/comments.php:40 admin/js/admin.js:319 installer/script.js:393
+#: admin/comments.php:40 admin/js/admin.js:319
 msgid "None selected"
 msgstr "尚未选择任何项目"
 
@@ -1731,7 +1751,7 @@ msgstr "插件文件 %s 存在语法错误，无法加载。"
 msgid "Show Error"
 msgstr "显示错误信息"
 
-#: admin/plugin.php:18 installer/db_setup.php:260
+#: admin/plugin.php:18 installer/db_setup.php:265
 #, php-format
 msgid ""
 "The plugin file %s is a legacy plugin, and does not include an XML info file."
@@ -1831,7 +1851,7 @@ msgstr "拒绝"
 msgid "Apply"
 msgstr "应用"
 
-#: admin/formcontrols/formcontrol_textmulti.php:30 classes/formui.php:1857
+#: admin/formcontrols/formcontrol_textmulti.php:30 classes/formui.php:1858
 msgid "remove"
 msgstr "移除"
 
@@ -1846,12 +1866,12 @@ msgstr "使用中的主题"
 #: admin/themes.php:21 admin/themes.php:23
 #: handlers/adminpluginshandler.php:127 installer/db_setup.php:11
 #: installer/db_setup.php:166 installer/db_setup.php:220
-#: installer/db_setup.php:253
+#: installer/db_setup.php:258
 msgid "Help"
 msgstr "说明"
 
 #: admin/themes.php:31 handlers/admincommentshandler.php:73
-#: classes/post.php:977
+#: classes/post.php:979
 msgid "Settings"
 msgstr "设定"
 
@@ -2213,7 +2233,7 @@ msgstr "删除类型\"%2s\"的块\"%1s\"失败。"
 msgid "Saved block areas settings."
 msgstr "保存块区域设置。"
 
-#: handlers/adminthemeshandler.php:358
+#: handlers/adminthemeshandler.php:366
 #, php-format
 msgid ""
 "This data is for a block of type \"%s\", which is no longer provided by a "
@@ -2497,8 +2517,8 @@ msgstr "密码错误。"
 msgid "Only printable characters are allowed."
 msgstr "只允许使用可打印字符。"
 
-#: handlers/installhandler.php:157 handlers/installhandler.php:1797
-#: handlers/installhandler.php:1868
+#: handlers/installhandler.php:157 handlers/installhandler.php:1798
+#: handlers/installhandler.php:1869
 msgid "Allowed characters are A-Z, a-z and \"_\"."
 msgstr "允许的字符：A-Z, a-z 和 \"_\"."
 
@@ -2510,80 +2530,80 @@ msgstr "无法创建config.php文件&hellip;"
 msgid "Habari successfully installed."
 msgstr "Habari 已成功安装。"
 
-#: handlers/installhandler.php:421
+#: handlers/installhandler.php:423
 msgid "User is required."
 msgstr "账号为必填项。"
 
-#: handlers/installhandler.php:425
+#: handlers/installhandler.php:427
 msgid "Name for database is required."
 msgstr "数据库名称为必填项。"
 
-#: handlers/installhandler.php:429
+#: handlers/installhandler.php:431
 msgid "Host is required."
 msgstr "服务器地址为必填项。"
 
-#: handlers/installhandler.php:448 handlers/installhandler.php:659
+#: handlers/installhandler.php:450 handlers/installhandler.php:661
 msgid "Problem connecting to supplied database credentials"
 msgstr "数据库连接发生问题"
 
-#: handlers/installhandler.php:464
+#: handlers/installhandler.php:466
 #, php-format
 msgid "Could not create schema tables&hellip; %s"
 msgstr "无法创建模式表&hellip; %s"
 
-#: handlers/installhandler.php:473
+#: handlers/installhandler.php:475
 msgid "Problem creating default options"
 msgstr "加载默认选项时发生问题"
 
-#: handlers/installhandler.php:481
+#: handlers/installhandler.php:483
 msgid "Problem creating tags vocabulary"
 msgstr "创建标签词汇时发生问题"
 
-#: handlers/installhandler.php:488
+#: handlers/installhandler.php:490
 msgid "Problem creating base post types"
 msgstr "建立基本文章类型时发生问题"
 
-#: handlers/installhandler.php:499
+#: handlers/installhandler.php:501
 msgid "Problem creating admin user."
 msgstr "建立管理员账号时发生问题。"
 
-#: handlers/installhandler.php:505
+#: handlers/installhandler.php:507
 msgid "Problem creating admin group."
 msgstr "建立管理员组时出错。"
 
-#: handlers/installhandler.php:516
+#: handlers/installhandler.php:518
 msgid "Problem creating first post."
 msgstr "建立第一篇文章时发生问题。"
 
-#: handlers/installhandler.php:553 handlers/installhandler.php:586
-#: handlers/installhandler.php:1812 handlers/installhandler.php:1883
+#: handlers/installhandler.php:555 handlers/installhandler.php:588
+#: handlers/installhandler.php:1813 handlers/installhandler.php:1884
 msgid "Access denied. Make sure these credentials are valid."
 msgstr "访问遭拒，请确认您提供的数据是否正确。"
 
-#: handlers/installhandler.php:556 handlers/installhandler.php:589
-#: handlers/installhandler.php:1816 handlers/installhandler.php:1887
+#: handlers/installhandler.php:558 handlers/installhandler.php:591
+#: handlers/installhandler.php:1817 handlers/installhandler.php:1888
 msgid "That database does not exist."
 msgstr "数据库不存在。"
 
-#: handlers/installhandler.php:559 handlers/installhandler.php:592
-#: handlers/installhandler.php:1820 handlers/installhandler.php:1891
+#: handlers/installhandler.php:561 handlers/installhandler.php:594
+#: handlers/installhandler.php:1821 handlers/installhandler.php:1892
 msgid "Could not connect to host."
 msgstr "无法连接至服务器。"
 
-#: handlers/installhandler.php:620 handlers/installhandler.php:1939
+#: handlers/installhandler.php:622 handlers/installhandler.php:1940
 #, php-format
 msgid ""
 "Cannot write to %s. The SQLite data file is not writable by the web server."
 msgstr "无法写入 %s。服务器无法写入SQLite数据库文件"
 
-#: handlers/installhandler.php:624 handlers/installhandler.php:1932
+#: handlers/installhandler.php:626 handlers/installhandler.php:1933
 #, php-format
 msgid ""
 "Cannot write to %s directory. SQLite requires that the directory that holds "
 "the DB file be writable by the web server."
 msgstr "无法写入%s文件夹。SQLite需要服务器对数据库所在文件夹有写入权限。"
 
-#: handlers/installhandler.php:633
+#: handlers/installhandler.php:635
 #, php-format
 msgid ""
 "Cannot write to %s directory. The SQLite data file does not exist, and it "
@@ -2591,23 +2611,23 @@ msgid ""
 "directory containing the database file be writable by the web server."
 msgstr "无法写入%s文件夹。SQLite数据库文件不存在，并且无法创建该文件。SQLite需要服务器对数据库所在文件夹有写入权限。"
 
-#: handlers/installhandler.php:714 classes/acl.php:805 classes/acl.php:807
+#: handlers/installhandler.php:716 classes/acl.php:805 classes/acl.php:807
 msgid "admin"
 msgstr "管理员"
 
-#: handlers/installhandler.php:725 classes/acl.php:810 classes/acl.php:812
+#: handlers/installhandler.php:727 classes/acl.php:810 classes/acl.php:812
 msgid "anonymous"
 msgstr "访客"
 
-#: handlers/installhandler.php:783 handlers/installhandler.php:1708
+#: handlers/installhandler.php:784 handlers/installhandler.php:1709
 msgid "Trim the log table"
 msgstr "修剪日志表"
 
-#: handlers/installhandler.php:786 handlers/installhandler.php:1716
+#: handlers/installhandler.php:787 handlers/installhandler.php:1717
 msgid "Perform a check for plugin updates."
 msgstr "检测插件更新。"
 
-#: handlers/installhandler.php:830
+#: handlers/installhandler.php:831
 msgid ""
 "This site is running <a href=\"http://habariproject.org/\">Habari</a>, a "
 "state-of-the-art publishing platform!  Habari is a community-driven project "
@@ -2619,70 +2639,70 @@ msgstr ""
 "，它是一个现代的内容发表平台。Habari 是一个以社区为中心的项目，由世界各地的人们创造与支持。请访问 <a "
 "href=\"http://habariproject.org/\">http://habariproject.org/</a> 以深入了解。"
 
-#: handlers/installhandler.php:893
+#: handlers/installhandler.php:894
 msgid "currently unsupported."
 msgstr "目前未支持。"
 
-#: handlers/installhandler.php:1001 handlers/installhandler.php:1030
+#: handlers/installhandler.php:1002 handlers/installhandler.php:1031
 msgid "No admin user found"
 msgstr "没有找到管理员用户"
 
-#: handlers/installhandler.php:1438
+#: handlers/installhandler.php:1439
 msgid "Site Maintenance"
 msgstr "网站维护"
 
-#: handlers/installhandler.php:1439
+#: handlers/installhandler.php:1440
 msgid "Habari is currently being upgraded."
 msgstr "Habari正在升级。"
 
-#: handlers/installhandler.php:1440
+#: handlers/installhandler.php:1441
 msgid "Try again in a little while."
 msgstr "稍后再试。"
 
-#: handlers/installhandler.php:1453
+#: handlers/installhandler.php:1454
 msgid "Truncate the log table"
 msgstr "清空系统日志"
 
-#: handlers/installhandler.php:1577 classes/acl.php:780
+#: handlers/installhandler.php:1578 classes/acl.php:780
 msgid "Permissions on one's own posts"
 msgstr "对于自己的文章权限"
 
-#: handlers/installhandler.php:1588 handlers/installhandler.php:1590
+#: handlers/installhandler.php:1589 handlers/installhandler.php:1591
 #: classes/acl.php:841 classes/acl.php:843
 msgid "authenticated"
 msgstr "已验证"
 
-#: handlers/installhandler.php:1626 classes/acl.php:774
+#: handlers/installhandler.php:1627 classes/acl.php:774
 msgid "Edit own profile"
 msgstr "编辑所有者信息"
 
-#: handlers/installhandler.php:1631 classes/acl.php:777
+#: handlers/installhandler.php:1632 classes/acl.php:777
 msgid "Manage dashboard modules"
 msgstr "管理控制面板模块"
 
-#: handlers/installhandler.php:1731 classes/acl.php:782
+#: handlers/installhandler.php:1732 classes/acl.php:782
 msgid "Permissions to other users' unpublished posts"
 msgstr "对于其他用户未发表文章的权限："
 
-#: handlers/installhandler.php:1731 classes/acl.php:780 classes/acl.php:781
-#: classes/acl.php:782 classes/acl.php:784 classes/post.php:273
-#: classes/post.php:949
+#: handlers/installhandler.php:1732 classes/acl.php:780 classes/acl.php:781
+#: classes/acl.php:782 classes/acl.php:784 classes/post.php:274
+#: classes/post.php:951
 msgid "Content"
 msgstr "内容"
 
-#: handlers/installhandler.php:1779 handlers/installhandler.php:1850
+#: handlers/installhandler.php:1780 handlers/installhandler.php:1851
 msgid "The database host field was left empty."
 msgstr "数据库服务器地址为空白。"
 
-#: handlers/installhandler.php:1785 handlers/installhandler.php:1856
+#: handlers/installhandler.php:1786 handlers/installhandler.php:1857
 msgid "The database name field was left empty."
 msgstr "数据库名称为空白。"
 
-#: handlers/installhandler.php:1791 handlers/installhandler.php:1862
+#: handlers/installhandler.php:1792 handlers/installhandler.php:1863
 msgid "The database user field was left empty."
 msgstr "数据库账号为空白。"
 
-#: handlers/installhandler.php:1922
+#: handlers/installhandler.php:1923
 msgid "The database file was left empty."
 msgstr "数据库是空的。"
 
@@ -2805,7 +2825,7 @@ msgid_plural "Unapproved %d comments"
 msgstr[0] "已将 %d 则评论标记为待审核"
 
 #: handlers/adminpostshandler.php:28 handlers/adminpostshandler.php:32
-#: classes/post.php:1055
+#: classes/post.php:1057
 msgid "You don't have permission to edit that post"
 msgstr "您没有权限编辑这篇文章"
 
@@ -2910,7 +2930,7 @@ msgstr "显示名称"
 msgid "User Name"
 msgstr "用户名称"
 
-#: handlers/adminusershandler.php:98 classes/post.php:1244
+#: handlers/adminusershandler.php:98 classes/post.php:1246
 msgid "Email"
 msgstr "E-mail"
 
@@ -3475,51 +3495,51 @@ msgstr "缓存目录 <code>%s</code> 无法写入，缓存功能已停用。服�
 msgid "The cache directory '%s' is not writable - the cache is disabled."
 msgstr "缓存目录 <code>%s</code> 无法写入，缓存功能已停用。"
 
-#: classes/formui.php:903
+#: classes/formui.php:904
 msgid "Relative urls are not allowed"
 msgstr "相对URL是不允许的"
 
-#: classes/formui.php:909
+#: classes/formui.php:910
 #, php-format
 msgid "Only %s urls are allowed"
 msgstr "只有%s的网址是允许的"
 
-#: classes/formui.php:930
+#: classes/formui.php:931
 msgid "Value must be a valid Email Address."
 msgstr "请输入正确的 E-mail。"
 
-#: classes/formui.php:949
+#: classes/formui.php:950
 msgid "A value for this field is required."
 msgstr "此字段为必填项。"
 
-#: classes/formui.php:971
+#: classes/formui.php:972
 msgid "That username is already in use!"
 msgstr "用户名称与他人重复！"
 
-#: classes/formui.php:991
+#: classes/formui.php:992
 #, php-format
 msgid "The value of this field must match the value of %s."
 msgstr "此字段的值必须与 %s 相同。"
 
-#: classes/formui.php:1014
+#: classes/formui.php:1015
 msgid "The value does not meet submission requirements"
 msgstr "输入的值格式有误"
 
-#: classes/formui.php:1035
+#: classes/formui.php:1036
 #, php-format
 msgid "The value entered is lesser than the minimum of %d."
 msgstr "输入的值小于最小值 %d。"
 
-#: classes/formui.php:1041
+#: classes/formui.php:1042
 #, php-format
 msgid "The value entered is greater than the maximum of %d."
 msgstr "输入的值大于最大值 %d。"
 
-#: classes/formui.php:1857
+#: classes/formui.php:1858
 msgid "Remove item"
 msgstr "删除项目"
 
-#: classes/formui.php:1861
+#: classes/formui.php:1862
 msgid "Remove this item?"
 msgstr "您确定要删除这个项目？"
 
@@ -3673,40 +3693,40 @@ msgstr "信息数量 (%d) 超过上限于 %s！"
 msgid "This theme is a legacy theme that is not compatible with Habari "
 msgstr "这个主题是旧式主题，与Habari不兼容。 "
 
-#: classes/themes.php:122
+#: classes/themes.php:127
 msgid "There is no valid theme currently installed."
 msgstr "目前尚未安装任何可用的主题。"
 
-#: classes/themes.php:187
+#: classes/themes.php:192
 #, php-format
 msgid ""
 "This theme requires the parent theme named \"%s\" to be present prior to "
 "activation."
 msgstr "这个主题需要先激活名为 \"%s\" 父主题。"
 
-#: classes/themes.php:195
+#: classes/themes.php:200
 #, php-format
 msgid ""
 "This theme requires the feature \"<a href=\"%2$s\">%1$s</a>\" to be present "
 "prior to activation."
 msgstr "这个主题需要先激活 \"<a href=\"%2$s\">%1$s</a>\" 功能。"
 
-#: classes/themes.php:231
+#: classes/themes.php:236
 #, php-format
 msgid "Activated Theme: %s"
 msgstr "已启用 %s 主题"
 
-#: classes/themes.php:252
+#: classes/themes.php:257
 #, php-format
 msgid "Previewed Theme: %s"
 msgstr "已预览%s主题"
 
-#: classes/themes.php:267
+#: classes/themes.php:272
 #, php-format
 msgid "Canceled Theme Preview: %s"
 msgstr "已停止预览%s主题"
 
-#: classes/themes.php:297
+#: classes/themes.php:302
 msgid "Theme not installed."
 msgstr "主题未安装。"
 
@@ -4258,7 +4278,7 @@ msgstr "管理系统日志"
 msgid "Permissions to all posts"
 msgstr "对于所有文章的权限"
 
-#: classes/acl.php:784 classes/post.php:273
+#: classes/acl.php:784 classes/post.php:274
 #, php-format
 msgid "Permissions to posts of type \"%s\""
 msgstr "对于 %s 类型文章的权限"
@@ -4385,159 +4405,159 @@ msgstr "新项 %1$s: %2$s"
 msgid "Term %1$s (%2$s) deleted."
 msgstr "项 %1$s (%2$s) 已删除。"
 
-#: classes/post.php:637
+#: classes/post.php:639
 #, php-format
 msgid "New post %1$s (%2$s);  Type: %3$s; Status: %4$s"
 msgstr "新文章 %1$s (%2$s); 类型: %3$s; 状态: %4$s"
 
-#: classes/post.php:738
+#: classes/post.php:740
 #, php-format
 msgid "Post %1$s (%2$s) deleted."
 msgstr "已删除文章 %1$s (%2$s)。"
 
-#: classes/post.php:771
+#: classes/post.php:773
 #, php-format
 msgid "Scheduled Post %1$s (%2$s) published at %3$s."
 msgstr "文章 %1$s (%2$s) 已预定于 %3$s 发表。"
 
-#: classes/post.php:774
+#: classes/post.php:776
 #, php-format
 msgid "Post %1$s (%2$s) published."
 msgstr "已发表文章 %1$s (%2$s)。"
 
-#: classes/post.php:928
+#: classes/post.php:930
 msgid "Preview Post"
 msgstr "预览文章"
 
-#: classes/post.php:928
+#: classes/post.php:930
 msgid "View Post"
 msgstr "查看文章"
 
-#: classes/post.php:933 classes/post.php:936
+#: classes/post.php:935 classes/post.php:938
 msgid "Title"
 msgstr "标题"
 
-#: classes/post.php:957
+#: classes/post.php:959
 msgid "Tags, separated by, commas"
 msgstr "以逗号, 分隔, 标签"
 
-#: classes/post.php:979
+#: classes/post.php:981
 msgid "Content State"
 msgstr "状态"
 
-#: classes/post.php:988
+#: classes/post.php:990
 msgid "Minor Edit"
 msgstr "小修改"
 
-#: classes/post.php:993
+#: classes/post.php:995
 msgid "Comments Allowed"
 msgstr "允许评论"
 
-#: classes/post.php:996
+#: classes/post.php:998
 msgid "Publication Time"
 msgstr "发表时间"
 
-#: classes/post.php:998
+#: classes/post.php:1000
 msgid "YYYY-MM-DD HH:MM:SS"
 msgstr "YYYY-MM-DD HH:MM:SS"
 
-#: classes/post.php:1003
+#: classes/post.php:1005
 msgid "Content Address"
 msgstr "易记网址"
 
-#: classes/post.php:1062
+#: classes/post.php:1064
 msgid "Changing content types is not allowed"
 msgstr "不允许改变内容类型"
 
-#: classes/post.php:1073
+#: classes/post.php:1075
 msgid "Creating that post type is denied"
 msgstr "创建该文章类型被拒绝"
 
-#: classes/post.php:1086
+#: classes/post.php:1088
 msgid "Editing that post type is denied"
 msgstr "编辑文章类型被拒绝"
 
-#: classes/post.php:1093
+#: classes/post.php:1095
 #, php-format
 msgid ""
 "The post %1$s was updated since you made changes.  Please review those "
 "changes before overwriting them."
 msgstr "文章%1$s在你修改之后已发生变化。覆盖前请仔细阅读这些变化。"
 
-#: classes/post.php:1100
+#: classes/post.php:1102
 msgid "A post slug cannot be empty. Keeping old slug."
 msgstr "文章代称不可为空白，将保留旧的代称。"
 
-#: classes/post.php:1155
+#: classes/post.php:1157
 #, php-format
 msgid "The post %1$s has been saved as %2$s."
 msgstr "文章 %1$s 已保存为 %2$s。"
 
-#: classes/post.php:1204
+#: classes/post.php:1206
 msgid "Comments are disabled site-wide."
 msgstr "评论由于某些原因被和谐。"
 
-#: classes/post.php:1209
+#: classes/post.php:1211
 msgid "Comments for this post are disabled."
 msgstr "不允许评论哦，亲"
 
-#: classes/post.php:1214
+#: classes/post.php:1216
 msgid "Commenting on this site requires authentication."
 msgstr "此评论有待核实。"
 
-#: classes/post.php:1219
+#: classes/post.php:1221
 msgid "You do not have permission to comment on this site."
 msgstr "您木有权限评论。"
 
-#: classes/post.php:1232
+#: classes/post.php:1234
 msgid "Name <span class=\"required\">*Required</span>"
 msgstr "用户名<span class=\"required\">*Required</span>"
 
-#: classes/post.php:1234
+#: classes/post.php:1236
 msgid "The Name field value is required"
 msgstr "用户名是必须的"
 
-#: classes/post.php:1246 classes/post.php:1251
+#: classes/post.php:1248 classes/post.php:1253
 msgid "The Email field value must be a valid email address"
 msgstr "必须为有效的Email。"
 
-#: classes/post.php:1252
+#: classes/post.php:1254
 msgid "Email <span class=\"required\">*Required</span>"
 msgstr "E-mail <span class=\"required\">*Required</span>"
 
-#: classes/post.php:1263
+#: classes/post.php:1265
 msgid "The Website field value must be a valid URL"
 msgstr ""
 
-#: classes/post.php:1276
+#: classes/post.php:1278
 msgid "The Comment field value is required"
 msgstr ""
 
-#: classes/post.php:1633
+#: classes/post.php:1635
 msgid "Entry"
 msgstr "文章"
 
-#: classes/post.php:1634
+#: classes/post.php:1636
 msgid "Entries"
 msgstr "文章"
 
-#: classes/post.php:1637
+#: classes/post.php:1639
 msgid "Page"
 msgstr "页面"
 
-#: classes/post.php:1638
+#: classes/post.php:1640
 msgid "Pages"
 msgstr "页面"
 
-#: classes/post.php:1653
+#: classes/post.php:1655
 msgid "draft"
 msgstr "草稿"
 
-#: classes/post.php:1654
+#: classes/post.php:1656
 msgid "published"
 msgstr "已发布"
 
-#: classes/post.php:1655
+#: classes/post.php:1657
 msgid "scheduled"
 msgstr "预定发布的"
 
@@ -4728,22 +4748,26 @@ msgid ""
 "The theme file %s is a legacy theme, and does not include an XML info file."
 msgstr ""
 
-#: installer/db_setup.php:252
+#: installer/db_setup.php:257
 msgid "Plugin Activation"
 msgstr "启用插件"
 
-#: installer/db_setup.php:285 installer/config.php:31 installer/sqlite.php:25
+#: installer/db_setup.php:299 installer/config.php:31 installer/sqlite.php:25
 #: installer/htaccess.php:25
 msgid "Install"
 msgstr "安装"
 
-#: installer/db_setup.php:288
+#: installer/db_setup.php:302
 msgid ""
 "Habari now has all of the information needed to install itself on your "
 "server."
 msgstr "安装 Habari 所需的信息已经备齐。"
 
-#: installer/db_setup.php:289 installer/header.php:20
+#: installer/db_setup.php:303
+msgid "The selected theme and plugins require additional features:"
+msgstr ""
+
+#: installer/db_setup.php:304 installer/header.php:20
 msgid "Install Habari"
 msgstr "安装 Habari"
 
@@ -4967,7 +4991,7 @@ msgstr "已选 %1$s (<a href=\"#all\" class=\"everything\">全选 %2$s</a>)"
 msgid "All %s selected"
 msgstr "全部 %s 已选择"
 
-#: admin/js/admin.js:342 installer/script.js:403
+#: admin/js/admin.js:342
 #, perl-format
 msgid "%s selected"
 msgstr "%s 已选定"
@@ -4983,8 +5007,37 @@ msgid ""
 "the lose of data."
 msgstr "您尚未保存，直接离开本页将丢失您所做的更改。"
 
-#: installer/script.js:398
-msgid "All selected"
+#: installer/script.js:157
+#, perl-format
+msgid "This plugin conflics with a requirement of the theme: %s"
+msgstr ""
+
+#: installer/script.js:163
+#, perl-format
+msgid "This plugin provides a requirement of the theme: %s"
+msgstr ""
+
+#: installer/script.js:182
+#, perl-format
+msgid "This plugin conflics with the enabled plugin %s over this feature: %s"
+msgstr ""
+
+#: installer/script.js:192
+#, perl-format
+msgid ""
+"This plugin provides a feature that the enabled plugin %s conflicts with: %s"
+msgstr ""
+
+#: installer/script.js:203
+#, perl-format
+msgid ""
+"This plugin requires a feature that is not provided by the current theme or "
+"any available plugin: %s"
+msgstr ""
+
+#: installer/script.js:221
+#, perl-format
+msgid "This plugin provides a requirement of an active plugin: %s"
 msgstr ""
 
 #, php-format
